@@ -1,11 +1,15 @@
 # Twitter Web Scrapping and Analysis
 
+ <br>
+ 
 ### Workflow Summary
 Step	Description
 1. Scraping	Collected ~2100 recent tweets using Selenium from Twitter’s live feed, capturing tweet text, metadata, and engagement metrics.
 2. Cleaning	Filtered non-English tweets and removed noise (links, hashtags, stop-words, etc.). Retained all core metadata.
 3. Analysis	Applied sentiment scoring (VADER), topic modeling (LDA), and visualized the data for trends and patterns.
 
+ <br>
+ 
 ##### Steps to run the Project:
 ###### 1. Install dependencies in the project root:
 pip install --upgrade pip
@@ -43,7 +47,7 @@ Insights:
 
 Takeaway: The job conversation on Twitter—at least in this segment—is hopeful and opportunity-driven.
 
-
+ <br>
 
 B. Tweet Topic Distribution <br>
 ![topic_dist](https://github.com/user-attachments/assets/0193e626-5d8d-45e0-b551-fe1556883ac7)
@@ -55,19 +59,23 @@ What the chart shows: An LDA-based analysis grouped tweets into five topics (0�
 - Topic 3 (utm, jobs, source) – ~150 tweets
 - Topic 1 (thread, topic, could) – ~100 tweets (lowest)
 Each topic’s top three keywords appear in the legend, giving a peek at the theme behind the numbers.
+
 Why this matters:
 - Dominant theme (Topic 2): Keywords “apply,” “job,” “click” indicate direct call-to-action posts—likely job postings or recruitment links.
 - Technical roles (Topic 4): “engineer,” “hiring,” “united” suggests a strong substream of engineering openings.
 - Managerial & dev roles (Topic 0): “manager,” “developer,” plus “apply” indicates mid-to-senior tech and management positions.
 - Marketing/meta tags (Topic 3): “utm,” “source,” “jobs” hint at auto-generated RSS/link-sharing feeds.
 - Conversational chatter (Topic 1): “thread,” “topic,” “could” suggests general discussions or comment threads about job trends.
+
+
 Actionable takeaways
 1.	Elevate CTAs: Since CTA-style tweets dominate, ensure your listings have clear “apply now” links and strong calls to action.
 2.	Highlight engineering roles: Carve out dedicated campaigns for engineering and if that’s a core audience.
 3.	Filter auto-feeds: If you want genuine engagement, consider filtering or labeling “utm/source” posts as auto-shares versus human-generated.
 4.	Foster dialogue: The small but present conversational segment (Topic 1) is an opportunity for Q&A sessions, Twitter Chats, or Ask-Me-Anythings to boost community engagement.
 
-
+ <br>
+ 
 C. Tweets Over Time <br>
 ![timeline](https://github.com/user-attachments/assets/a1873b34-000c-480a-a8f9-2c4358710ab6)
 
@@ -82,7 +90,8 @@ Actionable takeaways
 2.	Monitor hourly patterns. Drill down beyond daily counts—if most tweets on June 27 occurred between 8 AM–12 PM, tailor your publishing schedule to that window.
 3.	Re-run weekly. Compare weekly or monthly cycles to understand if this mid-week dip is consistent or driven by external events.
 
-
+ <br>
+ 
 D. Top 10 Hashtags <br>
 ![top_hashtags](https://github.com/user-attachments/assets/8cafda2f-ef11-440f-8eb4-55204a611044)
 
