@@ -33,7 +33,7 @@ python analysis/analysis.py
 – Also writes the augmented table to data/tweets_final.csv.
 
 #### Analysis & Findings
-###### A. Sentiment Distribution (VADER)
+###### A. Sentiment Distribution (VADER) <br>
 ![sentiment_dist](https://github.com/user-attachments/assets/54d5868c-427f-44d7-9f1e-36c7b27cd8b6)
 
 Insights:
@@ -45,7 +45,7 @@ Takeaway: The job conversation on Twitter—at least in this segment—is hopefu
 
 
 
-B. Tweet Topic Distribution
+B. Tweet Topic Distribution <br>
 ![topic_dist](https://github.com/user-attachments/assets/0193e626-5d8d-45e0-b551-fe1556883ac7)
 
 What the chart shows: An LDA-based analysis grouped tweets into five topics (0–4). The bar chart below displays how many tweets fall into each:
@@ -68,7 +68,7 @@ Actionable takeaways
 4.	Foster dialogue: The small but present conversational segment (Topic 1) is an opportunity for Q&A sessions, Twitter Chats, or Ask-Me-Anythings to boost community engagement.
 
 
-C. Tweets Over Time
+C. Tweets Over Time <br>
 ![timeline](https://github.com/user-attachments/assets/a1873b34-000c-480a-a8f9-2c4358710ab6)
 
 What the chart shows
@@ -83,7 +83,7 @@ Actionable takeaways
 3.	Re-run weekly. Compare weekly or monthly cycles to understand if this mid-week dip is consistent or driven by external events.
 
 
-D. Top 10 Hashtags
+D. Top 10 Hashtags <br>
 ![top_hashtags](https://github.com/user-attachments/assets/8cafda2f-ef11-440f-8eb4-55204a611044)
 
 What the chart shows A horizontal bar chart listing the ten most-used hashtags in our scraped tweets, with their raw counts:
