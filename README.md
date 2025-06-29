@@ -26,10 +26,10 @@ python scripts/clean_tweets.py
 ###### 5. Analyze & visualize
 python analysis/analysis.py
 – Loads data/tweets_cleaned.csv, runs sentiment analysis, LDA topic modeling, and outputs:
-> reports/sentiment_dist.png 
-> reports/topic_dist.png 
-> reports/timeline.png 
-> reports/top_hashtags.png
+ - reports/sentiment_dist.png 
+ - reports/topic_dist.png 
+ - reports/timeline.png 
+ - reports/top_hashtags.png
 – Also writes the augmented table to data/tweets_final.csv.
 
 #### Analysis & Findings
