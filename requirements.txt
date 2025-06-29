@@ -1,0 +1,11 @@
+selenium
+pandas
+numpy
+regex
+nltk
+spacy
+scikit-learn
+gensim
+matplotlib
+seaborn
+vaderSentiment
