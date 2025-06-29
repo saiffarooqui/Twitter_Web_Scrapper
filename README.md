@@ -49,18 +49,18 @@ B. Tweet Topic Distribution <br>
 ![topic_dist](https://github.com/user-attachments/assets/0193e626-5d8d-45e0-b551-fe1556883ac7)
 
 What the chart shows: An LDA-based analysis grouped tweets into five topics (0–4). The bar chart below displays how many tweets fall into each:
-•	Topic 2 (apply, job, click) – ~500 tweets (highest)
-•	Topic 4 (engineer, hiring, united) – ~250 tweets
-•	Topic 0 (apply, manager, developer) – ~200 tweets
-•	Topic 3 (utm, jobs, source) – ~150 tweets
-•	Topic 1 (thread, topic, could) – ~100 tweets (lowest)
+- Topic 2 (apply, job, click) – ~500 tweets (highest)
+- Topic 4 (engineer, hiring, united) – ~250 tweets
+- Topic 0 (apply, manager, developer) – ~200 tweets
+- Topic 3 (utm, jobs, source) – ~150 tweets
+- Topic 1 (thread, topic, could) – ~100 tweets (lowest)
 Each topic’s top three keywords appear in the legend, giving a peek at the theme behind the numbers.
 Why this matters:
-•	Dominant theme (Topic 2): Keywords “apply,” “job,” “click” indicate direct call-to-action posts—likely job postings or recruitment links.
-•	Technical roles (Topic 4): “engineer,” “hiring,” “united” suggests a strong substream of engineering openings.
-•	Managerial & dev roles (Topic 0): “manager,” “developer,” plus “apply” indicates mid-to-senior tech and management positions.
-•	Marketing/meta tags (Topic 3): “utm,” “source,” “jobs” hint at auto-generated RSS/link-sharing feeds.
-•	Conversational chatter (Topic 1): “thread,” “topic,” “could” suggests general discussions or comment threads about job trends.
+- Dominant theme (Topic 2): Keywords “apply,” “job,” “click” indicate direct call-to-action posts—likely job postings or recruitment links.
+- Technical roles (Topic 4): “engineer,” “hiring,” “united” suggests a strong substream of engineering openings.
+- Managerial & dev roles (Topic 0): “manager,” “developer,” plus “apply” indicates mid-to-senior tech and management positions.
+- Marketing/meta tags (Topic 3): “utm,” “source,” “jobs” hint at auto-generated RSS/link-sharing feeds.
+- Conversational chatter (Topic 1): “thread,” “topic,” “could” suggests general discussions or comment threads about job trends.
 Actionable takeaways
 1.	Elevate CTAs: Since CTA-style tweets dominate, ensure your listings have clear “apply now” links and strong calls to action.
 2.	Highlight engineering roles: Carve out dedicated campaigns for engineering and if that’s a core audience.
