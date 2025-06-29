@@ -30,7 +30,7 @@ python analysis/analysis.py
  - reports/topic_dist.png 
  - reports/timeline.png 
  - reports/top_hashtags.png
-– Also writes the augmented table to data/tweets_final.csv.
+<br>– Also writes the augmented table to data/tweets_final.csv.
 
 #### Analysis & Findings
 ###### A. Sentiment Distribution (VADER) <br>
